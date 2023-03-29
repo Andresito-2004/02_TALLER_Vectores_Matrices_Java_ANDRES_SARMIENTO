@@ -3,8 +3,8 @@ public class Reto4 {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         int num=0;
-        String [][] nombre = new String [4][4];
-        String [][] precios = new String [4][4];
+        String [][] nombre = new String [2][2];
+        String [][] precios = new String [2][2];
         for (int i=0;i<nombre.length;i++){
             for (int j=0;j<nombre.length;j++){
                         System.out.println("Digite el nombre: "+i+j);
